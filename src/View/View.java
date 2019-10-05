@@ -1,25 +1,19 @@
-
 package View;
 
-public class View {
-    private InitialFrame initFrame;
+public class View{
     
-    public View() {
-        initFrame = new InitialFrame();
+    private MainFrame mf;
+    
+    public View(){
+        mf = new MainFrame();
     }
 
-    /**
-     * @return the initFrame
-     */
-    public InitialFrame getInitFrame() {
-        return initFrame;
+    public MainFrame getMf() {
+        return mf;
     }
 
-    /**
-     * @param initFrame the initFrame to set
-     */
-    public void setInitFrame(InitialFrame initFrame) {
-        this.initFrame = initFrame;
+    public void setMf(MainFrame mf) {
+        this.mf = mf;
     }
     
 }
