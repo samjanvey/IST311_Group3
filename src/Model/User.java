@@ -1,6 +1,10 @@
 
 package Model;
 
-public class User {
+public class User extends Person{
     
+    
+    public User(){
+        
+    }
 }
