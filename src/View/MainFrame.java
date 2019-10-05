@@ -37,7 +37,7 @@ public class MainFrame extends JFrame {
         add(tPanel);
         //------------------------------------------------------
         setDefaultCloseOperation(EXIT_ON_CLOSE);
-        setSize(400, 800);
+        setSize(450, 800);
         setVisible(true);
 
         
