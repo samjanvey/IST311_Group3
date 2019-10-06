@@ -5,14 +5,26 @@
  */
 package Model;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Brad
  */
-public class Person {
+public abstract class Person {
     String name;
     
     public Person(){
+        name = "name";
         
     }
+    
+    //Constructor
+    Person(String name)
+    {
+        this.name = name;
+    }
+    
+    public abstract void getInfoArrayList();
+    
 }
